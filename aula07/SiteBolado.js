@@ -37,7 +37,7 @@ else{
     var Pdias = "Alta"
 }
 
-if(pressão == "alta alta" && "alta normal" && "normal alta"){
+if(pressão == "alta alta" || "alta normal" || "normal alta"){
     document.write(`Olá, ${nome}. Cuidado, Sua Pressão Arterial está Alta! </br>`)
 }
 else if (pressão == "normal normal"){
